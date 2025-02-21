@@ -1,0 +1,70 @@
+body {
+    font-size: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Press Start 2P", 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+input {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Press Start 2P", 'Courier New', Courier, monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.game-area {
+    flex: 2;
+}
+
+.text {
+    margin: 10px;
+    line-height: 20px;
+}
+
+.input {
+    position: absolute;
+    bottom: 25px;
+    line-height: 50px;
+}
+
+.help {
+    margin: 10px;
+    line-height: 20px;
+}
+  
+.art-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.art {
+    flex: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid aliceblue;
+}
+  
