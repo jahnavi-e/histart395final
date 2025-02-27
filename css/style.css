@@ -29,6 +29,11 @@ input:focus {
     flex: 2;
 }
 
+.flavor-text {
+    margin: 10px;
+    line-height: 20px;
+}
+
 .text {
     margin: 10px;
     line-height: 20px;
@@ -66,5 +71,12 @@ input:focus {
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-  
+
+.inv-text {
+    margin: 10px;
+}
