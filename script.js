@@ -129,7 +129,7 @@ const textNodes = [
   },
   {
     id: 2,
-    text: "You are standing in front of the cave's exit. Sitting on the ground next to the cave exit is a goblin fighter holing up a torch. The goblin looks like he's seen better days.",
+    text: "You are standing in front of the cave's exit. Sitting on the ground next to the cave exit is a goblin fighter holding up a torch. The goblin looks like he's seen better days.",
     options: [
       {
         text: 'Sample',
