@@ -80,3 +80,8 @@ input:focus {
 .inv-text {
     margin: 10px;
 }
+
+.inv-list {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
