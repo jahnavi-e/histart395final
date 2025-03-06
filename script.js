@@ -1,7 +1,7 @@
 let text = document.getElementById('text')
 let input = ""
 let help = document.getElementById('help')
-let stopwords = ["to", "in", "i", "me", "a", "an", "the", "from", "on", "at", "by", "with", "up", "hi", "hello", "wassup"];
+let stopwords = ["to", "in", "i", "me", "a", "an", "the", "from", "on", "at", "by", "with", "up", "hi", "hello", "you", "your", "my", "mine"];
 
 let inventory = [];
 let textNode = 1
@@ -207,6 +207,10 @@ const textNodes = [
         nextText: 7
       },
       {
+        text: 'Go north',
+        nextText: 8
+      },
+      {
         text: 'N',
         nextText: 8
       },
@@ -344,6 +348,10 @@ const textNodes = [
       {
         text: 'Punch goblin',
         nextText: 7
+      },
+      {
+        text: 'Go north',
+        nextText: 8
       },
       {
         text: 'N',
