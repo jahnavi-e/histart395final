@@ -99,16 +99,6 @@ const textNodes = [
     text: "You wake up in a dark cave with no memory of your surroundings and current predicament. You see an object on the ground near you. You can also just barely make out a light to the East.",
     options: [
       {
-        text: 'Samples',
-        requiredInv: ["d20"],
-        nextText: 5
-      },
-      {
-        text: 'Sample',
-        setInv: "haveObject",
-        nextText: 0
-      },
-      {
         text: 'Go east',
         nextText: 2
       },
@@ -158,15 +148,6 @@ const textNodes = [
     text: "You are standing in front of the cave's exit. Sitting on the ground next to the cave exit is a goblin fighter holding up a torch. The goblin looks like he's seen better days.",
     options: [
       {
-        text: 'Sample',
-        requiredInv: ["d20"],
-        nextText: 1
-      },
-      {
-        text: 'Sample',
-        nextText: 5
-      },
-      {
         text: 'Talk goblin',
         nextText: 5
       },
@@ -189,6 +170,10 @@ const textNodes = [
       {
         text: 'Take torch',
         nextText: 6
+      },
+      {
+        text: 'Steal torch',
+        nextText: 5
       },
       {
         text: 'Fight goblin',
@@ -489,10 +474,6 @@ const textNodes = [
         nextText: 13
       },
       {
-        text: 'Sample',
-        nextText: 5
-      },
-      {
         text: 'Talk fisherman',
         nextText: 14
       },
@@ -655,7 +636,7 @@ const textNodes = [
   },
   {
     id: 12,
-    text: "You are standing in front of the ruins of a once-great shrine. All that remains at the center of the crumbling is a mossy throne. It beckons you to sit on it.",
+    text: "You are standing in front of the ruins of a once-great shrine. All that remains at the center of the crumbling ruins is a mossy throne. It beckons you to sit on it.",
     options: [
       {
         text: 'Sit throne',
