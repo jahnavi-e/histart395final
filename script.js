@@ -208,6 +208,14 @@ const textNodes = [
         nextText: 8
       },
       {
+        text: 'Leave',
+        nextText: 8
+      },
+      {
+        text: 'Exit',
+        nextText: 8
+      },
+      {
         text: 'Exit cave',
         nextText: 8
       },
@@ -348,6 +356,14 @@ const textNodes = [
       },
       {
         text: 'Leave cave',
+        nextText: 8
+      },
+      {
+        text: 'Leave',
+        nextText: 8
+      },
+      {
+        text: 'Exit',
         nextText: 8
       },
       {
